@@ -1,0 +1,339 @@
+W0621 11:33:51.368087             MAIN main.cpp:2059] Orthanc version: 1.12.4
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:109] Scanning folder "Configuration" for configuration files
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\azure.json"
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\delayed-deletion.json"
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\dicomweb.json"
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\housekeeper.json"
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\indexer.json"
+W0621 11:33:51.368087             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\mysql.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\odbc.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\orthanc-explorer-2.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\orthanc.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\postgresql.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\serve-folders.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\stone-webviewer.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\tcia.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\transfers.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\webviewer.json"
+W0621 11:33:51.383724             MAIN OrthancConfiguration.cpp:58] Reading the configuration from: "Configuration\worklists.json"
+W0621 11:33:51.760415             MAIN main.cpp:917] Loading plugin(s) from: D:\Orthanc Server\Plugins
+W0621 11:33:51.760415             MAIN PluginsManager.cpp:274] Registering plugin 'connectivity-checks' (version 1.12.4)
+W0621 11:33:51.776038             MAIN PluginsManager.cpp:274] Registering plugin 'delayed-deletion' (version 1.12.4)
+W0621 11:33:51.776038             MAIN delayed-deletion:/Plugin.cpp:351] DelayedDeletion - plugin is loaded but disabled (check your "DelayedDeletion.Enable" configuration)
+W0621 11:33:51.776038             MAIN PluginsManager.cpp:274] Registering plugin 'housekeeper' (version 1.12.4)
+W0621 11:33:51.776038             MAIN housekeeper:/Plugin.cpp:810] Housekeeper plugin is initializing
+W0621 11:33:51.776038             MAIN housekeeper:/Plugin.cpp:928] Housekeeper plugin is disabled by the configuration file
+W0621 11:33:51.791666             MAIN PluginsManager.cpp:274] Registering plugin 'ohif' (version 1.2)
+W0621 11:33:51.807290             MAIN PluginsManager.cpp:274] Registering plugin 'volview' (version 1.1)
+W0621 11:33:51.807290             MAIN PluginsManager.cpp:274] Registering plugin 'stone-webviewer' (version 2.5)
+W0621 11:33:51.818802             MAIN PluginsManager.cpp:274] Registering plugin 'worklists' (version 1.12.4)
+W0621 11:33:51.818802             MAIN worklists:/Plugin.cpp:229] Sample worklist plugin is initializing
+W0621 11:33:51.818802             MAIN worklists:/Plugin.cpp:256] Worklist server is disabled by the configuration file
+W0621 11:33:51.836382             MAIN PluginsManager.cpp:274] Registering plugin 'multitenant-dicom' (version 1.12.4)
+W0621 11:33:52.159950             MAIN PluginsManager.cpp:274] Registering plugin 'authorization' (version 0.7.2)
+W0621 11:33:52.159950             MAIN PluginsManager.cpp:158] Initializing the authorization plugin
+W0621 11:33:52.159950             MAIN PluginsManager.cpp:158] No section "Authorization" in the configuration file, the authorization plugin is disabled
+W0621 11:33:52.171484             MAIN PluginsManager.cpp:274] Registering plugin 'Azure Blob Storage' (version 2.3.1)
+W0621 11:33:52.171484             MAIN PluginsManager.cpp:158] Azure Blob Storage plugin is initializing
+W0621 11:33:52.171484             MAIN PluginsManager.cpp:158] Azure Blob Storage: no "AzureBlobStorage" section found in configuration, plugin is disabled
+W0621 11:33:52.181532             MAIN PluginsManager.cpp:274] Registering plugin 'dicom-web' (version 1.17)
+W0621 11:33:52.181532             MAIN dicom-web:/Plugin.cpp:565] URI to the DICOMweb REST API: /dicom-web/
+W0621 11:33:52.186545             MAIN dicom-web:/Plugin.cpp:647] DICOMWeb PublicRoot: /dicom-web/
+W0621 11:33:52.186545             MAIN dicom-web:/Plugin.cpp:658] URI to the WADO-URI API: /wado
+W0621 11:33:52.191576             MAIN PluginsManager.cpp:274] Registering plugin 'orthanc-explorer-2' (version 1.4.1)
+W0621 11:33:52.191576             MAIN PluginsManager.cpp:158] Root URI to the Orthanc-Explorer 2 application: /ui/
+W0621 11:33:52.239947             MAIN PluginsManager.cpp:274] Registering plugin 'gdcm' (version 1.7)
+W0621 11:33:52.239947             MAIN PluginsManager.cpp:158] Version of GDCM: 3.0.24
+W0621 11:33:52.239947             MAIN PluginsManager.cpp:158] GDCM throttling is disabled
+W0621 11:33:52.246455             MAIN PluginsManager.cpp:274] Registering plugin 'indexer' (version 1.1)
+W0621 11:33:52.246455             MAIN PluginsManager.cpp:158] OrthancIndexer is disabled
+W0621 11:33:52.256504             MAIN PluginsManager.cpp:274] Registering plugin 'mysql-index' (version 5.2)
+W0621 11:33:52.287654             MAIN mysql-index:/IndexPlugin.cpp:65] The MySQL index is currently disabled, set "EnableIndex" to "true" in the "MySQL" section of the configuration file of Orthanc
+W0621 11:33:52.306720             MAIN PluginsManager.cpp:274] Registering plugin 'mysql-storage' (version 5.2)
+W0621 11:33:52.318800             MAIN mysql-storage:/StoragePlugin.cpp:62] The MySQL storage area is currently disabled, set "EnableStorage" to "true" in the "MySQL" section of the configuration file of Orthanc
+W0621 11:33:52.319836             MAIN PluginsManager.cpp:274] Registering plugin 'neuro' (version 1.1)
+W0621 11:33:52.331397             MAIN PluginsManager.cpp:274] Registering plugin 'odbc-index' (version 1.2)
+W0621 11:33:52.336421             MAIN PluginsManager.cpp:158] The ODBC index is currently disabled, set "EnableIndex" to "true" in the "Odbc" section of the configuration file of Orthanc
+W0621 11:33:52.341456             MAIN PluginsManager.cpp:274] Registering plugin 'odbc-storage' (version 1.2)
+W0621 11:33:52.341456             MAIN PluginsManager.cpp:158] The ODBC storage area is currently disabled, set "EnableStorage" to "true" in the "Odbc" section of the configuration file of Orthanc
+W0621 11:33:52.351498             MAIN PluginsManager.cpp:274] Registering plugin 'postgresql-index' (version 6.2)
+W0621 11:33:52.351498             MAIN PluginsManager.cpp:158] The PostgreSQL index is currently disabled, set "EnableIndex" to "true" in the "PostgreSQL" section of the configuration file of Orthanc
+W0621 11:33:52.356509             MAIN PluginsManager.cpp:274] Registering plugin 'postgresql-storage' (version 6.2)
+W0621 11:33:52.361547             MAIN PluginsManager.cpp:158] The PostgreSQL storage area is currently disabled, set "EnableStorage" to "true" in the "PostgreSQL" section of the configuration file of Orthanc
+W0621 11:33:52.386680             MAIN PluginsManager.cpp:274] Registering plugin 'stl' (version 1.1)
+W0621 11:33:52.386680             MAIN PluginsManager.cpp:158] Falling back to system-wide default locale
+W0621 11:33:52.386680             MAIN PluginsManager.cpp:158] This is a MinGW build, case-insensitive comparison of strings with accents will not work outside of Wine
+W0621 11:33:52.431436             MAIN PluginsManager.cpp:274] Registering plugin 'tcia' (version 1.2)
+W0621 11:33:52.441481             MAIN PluginsManager.cpp:274] Registering plugin 'transfers' (version 1.5)
+W0621 11:33:52.447526             MAIN PluginsManager.cpp:274] Registering plugin 'web-viewer' (version 2.9)
+W0621 11:33:52.447526             MAIN PluginsManager.cpp:158] Initializing the Web viewer
+W0621 11:33:52.447526             MAIN PluginsManager.cpp:158] Web viewer using 6 threads for the decoding of the DICOM images
+W0621 11:33:52.447526             MAIN PluginsManager.cpp:158] Storing the cache of the Web viewer in folder: D:\Orthanc Files\WebViewerCache
+W0621 11:33:52.456548             MAIN PluginsManager.cpp:158] Web viewer using a cache of 100 MB
+W0621 11:33:52.463584             MAIN PluginsManager.cpp:274] Registering plugin 'wsi' (version 2.0)
+W0621 11:33:52.463584             MAIN PluginsManager.cpp:158] The whole-slide imaging plugin will use at most 12 threads to transcode the tiles
+W0621 11:33:52.466594             MAIN PluginsManager.cpp:158] Support of IIIF is enabled in the whole-slide imaging plugin
+W0621 11:33:52.496288             MAIN PluginsManager.cpp:274] Registering plugin 'osimis-web-viewer' (version 1.4.3.0-7e033afe)
+W0621 11:33:52.496288             MAIN PluginsManager.cpp:158] Initializing the Web viewer
+W0621 11:33:52.496288             MAIN PluginsManager.cpp:158] Using GDCM instead of the DICOM decoder that is built in Orthanc
+W0621 11:33:52.506753             MAIN PluginsManager.cpp:274] Registering plugin 'serve-folders' (version 1.12.4)
+W0621 11:33:52.506753             MAIN serve-folders:/Plugin.cpp:415] ServeFolders: Empty configuration file: No additional folder will be served!
+W0621 11:33:52.506753             MAIN OrthancInitialization.cpp:427] SQLite index directory: "D:\Orthanc Files"
+W0621 11:33:52.511783             MAIN OrthancInitialization.cpp:526] Storage directory: "D:\Orthanc Files"
+W0621 11:33:52.516619             MAIN HttpClient.cpp:1195] HTTPS will use the CA certificates from this file: D:\Orthanc Server\Configuration\ca-certificates.crt
+W0621 11:33:52.519145             MAIN LuaContext.cpp:95] Lua says: Lua toolbox installed
+W0621 11:33:52.519145             MAIN LuaContext.cpp:95] Lua says: Lua toolbox installed
+W0621 11:33:52.519145             MAIN ServerContext.cpp:575] Disk compression is disabled
+W0621 11:33:52.519145             MAIN ServerIndex.cpp:376] No limit on the number of stored patients
+W0621 11:33:52.519145             MAIN ServerIndex.cpp:396] No limit on the size of the storage area
+W0621 11:33:52.519145             MAIN ServerContext.cpp:286] Reloading the jobs from the last execution of Orthanc
+W0621 11:33:52.526671             MAIN JobsEngine.cpp:273] The jobs engine has started with 2 threads
+W0621 11:33:52.527702             MAIN main.cpp:1329] DICOM server listening with AET ORTHANC on port: 4242
+W0621 11:33:52.527702             MAIN HttpServer.cpp:2046] HTTP compression is disabled
+W0621 11:33:52.527702             MAIN main.cpp:1178] Remote LUA script execution is disabled
+W0621 11:33:52.527702             MAIN main.cpp:1190] REST API cannot write to the file system bacause the "RestApiWriteToFileSystemEnabled" configuration is set to false.  The URI /instances/../export is disabled.  This is the most secure configuration.
+W0621 11:33:52.527702             MAIN HttpServer.cpp:1804] HTTP server listening on port: 8042 (HTTPS encryption is disabled, remote access is not allowed)
+W0621 11:33:52.527702             MAIN main.cpp:929] Orthanc has started
+W0621 11:33:52.527702             MAIN PluginsManager.cpp:158] When using OE2 and the authorization plugin together, you must set 'Authorization.CheckedLevel' to 'studies'.  Unless you are using this orthanc only to generate tokens.
+E0622 19:34:48.675351          HTTP-13 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:34:50.735420          HTTP-39 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:34:52.788913          HTTP-49 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:34:54.845973          HTTP-10 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:34:56.893517          HTTP-15 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:35:09.184378          HTTP-20 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:35:11.210395          HTTP-22 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:35:13.252606          HTTP-23 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:35:15.288514          HTTP-21 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:35:17.323217          HTTP-24 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:27.836995           HTTP-0 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:29.880343          HTTP-47 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:31.915397           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:33.966462           HTTP-3 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:36.010317           HTTP-5 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:48.336398           HTTP-9 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:50.371096          HTTP-38 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:52.425664          HTTP-40 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:54.454396          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:48:56.471277          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:25.419622          HTTP-15 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:27.466987          HTTP-16 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:29.512808          HTTP-14 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:31.557072          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:33.581620          HTTP-19 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:45.884252          HTTP-29 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:47.910616          HTTP-30 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:49.953166          HTTP-45 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:51.985510          HTTP-46 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:49:54.007646          HTTP-31 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:50:40.454021          HTTP-47 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:50:42.501810           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:50:44.555788           HTTP-3 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:50:46.603842           HTTP-5 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:50:48.630127           HTTP-1 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:00.988821          HTTP-38 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:03.031241          HTTP-40 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:05.082671          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:07.114971          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:09.153180          HTTP-42 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:50.252443          HTTP-16 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:52.305044          HTTP-14 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:54.353229          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:56.392473          HTTP-19 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:51:58.442639          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:52:10.692668          HTTP-29 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:52:12.744000          HTTP-30 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:52:14.768830          HTTP-45 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:52:16.828843          HTTP-46 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:52:18.842781          HTTP-31 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:53:45.701332          HTTP-25 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:53:47.748557           HTTP-0 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:53:49.795837          HTTP-47 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:53:51.846234           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:53:53.882096           HTTP-3 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:54:06.256929          HTTP-48 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:54:08.296765           HTTP-9 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:54:10.337840          HTTP-38 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:54:12.389197          HTTP-40 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0622 19:54:14.440405          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:20.635693          HTTP-16 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:22.698077          HTTP-19 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:24.772320          HTTP-14 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:26.836067          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:28.897802          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:30.970895          HTTP-20 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:45.386434          HTTP-45 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:47.430084          HTTP-46 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:49.478160          HTTP-31 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:51.526950          HTTP-32 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:00:53.563402          HTTP-33 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:24.766324           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:26.803076           HTTP-3 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:28.832285           HTTP-5 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:30.851512           HTTP-1 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:32.870482           HTTP-8 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:34.900204           HTTP-7 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:49.217882          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:51.251029          HTTP-42 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:53.264758           HTTP-6 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:55.285531          HTTP-43 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:07:57.338710          HTTP-12 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:09:26.009149          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:09:28.023987          HTTP-20 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:09:30.046584          HTTP-22 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:09:32.077502          HTTP-23 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:09:34.098469          HTTP-26 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:09:36.134240          HTTP-21 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:16.852908          HTTP-47 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:18.898622           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:20.940493           HTTP-3 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:22.987229           HTTP-5 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:25.044815           HTTP-1 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:27.081017           HTTP-8 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:41.396216          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:43.432625          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:45.459704          HTTP-42 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:47.505259           HTTP-6 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:17:49.520651          HTTP-43 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:32:46.394872           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:32:48.417972           HTTP-3 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:32:50.449067           HTTP-5 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:32:52.488510           HTTP-1 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:32:54.530292           HTTP-8 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:32:56.568387           HTTP-7 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:35:45.233009          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:35:47.282065          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:35:49.334741          HTTP-42 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:35:51.370281           HTTP-6 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:35:53.431374          HTTP-43 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:39:53.331681          HTTP-39 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:39:55.367280          HTTP-49 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:39:57.388316          HTTP-10 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:39:59.436516          HTTP-15 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:03.309600          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:05.346887          HTTP-20 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:07.392681          HTTP-22 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:09.420742          HTTP-23 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:11.454841          HTTP-26 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:23.752203          HTTP-31 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:25.802391          HTTP-32 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:27.867367          HTTP-33 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:29.925816          HTTP-27 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:44:31.979843          HTTP-28 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:08.438206          HTTP-40 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:10.484244          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:12.513227          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:14.533749          HTTP-42 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:16.576205           HTTP-6 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:18.600244          HTTP-43 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:32.986891          HTTP-14 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:35.021057          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:37.059708          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:39.082210          HTTP-20 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:48:41.118206          HTTP-23 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:28.829491          HTTP-34 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:30.865220          HTTP-36 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:32.910735          HTTP-37 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:34.945256          HTTP-25 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:36.982795           HTTP-0 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:39.022415           HTTP-2 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:53.421809           HTTP-9 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:55.462739          HTTP-38 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:57.518239          HTTP-40 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:54:59.549100          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:01.607708          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:42.969632          HTTP-10 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:45.007260          HTTP-14 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:47.051857          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:49.089574          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:51.140413          HTTP-19 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:55:53.201193          HTTP-26 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:56:07.567405          HTTP-33 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:56:09.594928          HTTP-21 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:56:11.627247          HTTP-31 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:56:13.662926          HTTP-27 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 11:56:15.703378          HTTP-28 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:00:39.666423          HTTP-49 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:00:41.688612          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:00:43.718338          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:00:45.771986          HTTP-19 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:00:47.799591          HTTP-30 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:00:49.838722          HTTP-22 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:01:04.206300          HTTP-27 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:01:06.247794          HTTP-28 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:01:08.286327          HTTP-35 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:01:10.332356          HTTP-24 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:01:12.372769          HTTP-23 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:06.828147          HTTP-41 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:08.867195          HTTP-11 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:10.905009           HTTP-4 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:12.946427          HTTP-48 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:14.970389          HTTP-42 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:17.001802           HTTP-6 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:31.347646          HTTP-17 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:33.392159          HTTP-18 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:35.452065          HTTP-15 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:37.496687          HTTP-19 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0624 12:03:39.552072          HTTP-30 OrthancException.cpp:62] Parameter out of range: Wildcards are not allowed on tag 0010,0020
+E0625 12:06:45.000906          HTTP-49 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ['5cb66999-b7c23bf2-f0563a2a-36c968e2-b29b7791']
+E0625 12:06:47.043521          HTTP-17 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ['ad2b0a8a-6177b838-278f84fb-9dc0266a-44f491f0']
+E0625 12:06:49.094172          HTTP-18 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ['39205433-bb3c4728-79a579d3-f368457f-9d44d706']
+E0625 12:06:51.130864          HTTP-15 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ['8d3accb6-e987ed9d-c5bb6a4c-115ecdb3-1eb7edc0']
+E0625 12:06:53.172744          HTTP-19 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ['229411ca-1e41153a-e455c704-65da9673-c8de2f50']
+E0625 12:13:05.269600          HTTP-30 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 5cb66999-b7c23bf2-f0563a2a-36c968e2-b29b7791
+E0625 12:13:07.299650          HTTP-14 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ad2b0a8a-6177b838-278f84fb-9dc0266a-44f491f0
+E0625 12:13:09.348862          HTTP-10 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 39205433-bb3c4728-79a579d3-f368457f-9d44d706
+E0625 12:13:11.390445          HTTP-22 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 8d3accb6-e987ed9d-c5bb6a4c-115ecdb3-1eb7edc0
+E0625 12:13:13.433399          HTTP-45 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 229411ca-1e41153a-e455c704-65da9673-c8de2f50
+E0625 12:14:13.011422          HTTP-46 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 5cb66999-b7c23bf2-f0563a2a-36c968e2-b29b7791
+E0625 12:14:15.048195          HTTP-32 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: ad2b0a8a-6177b838-278f84fb-9dc0266a-44f491f0
+E0625 12:14:17.093056          HTTP-33 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 39205433-bb3c4728-79a579d3-f368457f-9d44d706
+E0625 12:14:18.042011          HTTP-21 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 5cb66999-b7c23bf2-f0563a2a-36c968e2-b29b7791
+E0625 12:14:19.132251          HTTP-28 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 8d3accb6-e987ed9d-c5bb6a4c-115ecdb3-1eb7edc0
+E0625 12:14:21.177572          HTTP-35 OrthancException.cpp:62] Accessing an inexistent item: Missing resource while creating an archive: 229411ca-1e41153a-e455c704-65da9673-c8de2f50
+W0625 17:02:22.590165             MAIN main.cpp:991] Orthanc is stopping
+W0625 17:02:22.808934             MAIN main.cpp:1229]     HTTP server has stopped
+W0625 17:02:23.359623             MAIN main.cpp:1345]     DICOM server has stopped
+W0625 17:02:23.516992             MAIN JobsEngine.cpp:314] The jobs engine has stopped
+W0625 17:02:23.894116             MAIN PluginsManager.cpp:224] Unregistering plugin 'Azure Blob Storage' (version 2.3.1)
+W0625 17:02:23.894116             MAIN PluginsManager.cpp:158] Azure Blob Storage plugin is finalizing
+W0625 17:02:23.894116             MAIN PluginsManager.cpp:224] Unregistering plugin 'authorization' (version 0.7.2)
+W0625 17:02:23.909739             MAIN PluginsManager.cpp:224] Unregistering plugin 'connectivity-checks' (version 1.12.4)
+W0625 17:02:23.909739             MAIN PluginsManager.cpp:224] Unregistering plugin 'delayed-deletion' (version 1.12.4)
+W0625 17:02:23.909739             MAIN PluginsManager.cpp:224] Unregistering plugin 'dicom-web' (version 1.17)
+W0625 17:02:23.909739             MAIN PluginsManager.cpp:224] Unregistering plugin 'gdcm' (version 1.7)
+W0625 17:02:23.925368             MAIN PluginsManager.cpp:224] Unregistering plugin 'housekeeper' (version 1.12.4)
+W0625 17:02:23.925368             MAIN housekeeper:/Plugin.cpp:937] Housekeeper plugin is finalizing
+W0625 17:02:23.925368             MAIN PluginsManager.cpp:224] Unregistering plugin 'indexer' (version 1.1)
+W0625 17:02:23.940993             MAIN PluginsManager.cpp:158] Folder indexer plugin is finalizing
+W0625 17:02:23.940993             MAIN PluginsManager.cpp:224] Unregistering plugin 'multitenant-dicom' (version 1.12.4)
+W0625 17:02:23.940993             MAIN PluginsManager.cpp:224] Unregistering plugin 'mysql-index' (version 5.2)
+W0625 17:02:23.956616             MAIN mysql-index:/IndexPlugin.cpp:96] MySQL index is finalizing
+W0625 17:02:23.956616             MAIN PluginsManager.cpp:224] Unregistering plugin 'mysql-storage' (version 5.2)
+W0625 17:02:23.956616             MAIN mysql-storage:/StoragePlugin.cpp:90] MySQL storage area is finalizing
+W0625 17:02:23.972255             MAIN PluginsManager.cpp:224] Unregistering plugin 'neuro' (version 1.1)
+W0625 17:02:23.972255             MAIN PluginsManager.cpp:224] Unregistering plugin 'odbc-index' (version 1.2)
+W0625 17:02:23.972255             MAIN PluginsManager.cpp:158] ODBC index is finalizing
+W0625 17:02:23.972255             MAIN PluginsManager.cpp:224] Unregistering plugin 'odbc-storage' (version 1.2)
+W0625 17:02:23.972255             MAIN PluginsManager.cpp:158] ODBC storage area is finalizing
+W0625 17:02:23.987864             MAIN PluginsManager.cpp:224] Unregistering plugin 'ohif' (version 1.2)
+W0625 17:02:23.987864             MAIN PluginsManager.cpp:224] Unregistering plugin 'orthanc-explorer-2' (version 1.4.1)
+W0625 17:02:23.987864             MAIN PluginsManager.cpp:224] Unregistering plugin 'osimis-web-viewer' (version 1.4.3.0-7e033afe)
+W0625 17:02:23.987864             MAIN PluginsManager.cpp:158] Finalizing the Web viewer
+W0625 17:02:24.019115             MAIN PluginsManager.cpp:224] Unregistering plugin 'postgresql-index' (version 6.2)
+W0625 17:02:24.019115             MAIN PluginsManager.cpp:158] PostgreSQL index is finalizing
+W0625 17:02:24.019115             MAIN PluginsManager.cpp:224] Unregistering plugin 'postgresql-storage' (version 6.2)
+W0625 17:02:24.019115             MAIN PluginsManager.cpp:158] PostgreSQL storage area is finalizing
+W0625 17:02:24.019115             MAIN PluginsManager.cpp:224] Unregistering plugin 'serve-folders' (version 1.12.4)
+W0625 17:02:24.034740             MAIN PluginsManager.cpp:224] Unregistering plugin 'stl' (version 1.1)
+W0625 17:02:24.050365             MAIN PluginsManager.cpp:224] Unregistering plugin 'stone-webviewer' (version 2.5)
+W0625 17:02:24.050365             MAIN PluginsManager.cpp:224] Unregistering plugin 'tcia' (version 1.2)
+W0625 17:02:24.050365             MAIN PluginsManager.cpp:158] TCIA plugin is finalizing
+W0625 17:02:24.050365             MAIN PluginsManager.cpp:224] Unregistering plugin 'transfers' (version 1.5)
+W0625 17:02:24.050365             MAIN PluginsManager.cpp:158] Transfers accelerator plugin is finalizing
+W0625 17:02:24.050365             MAIN PluginsManager.cpp:224] Unregistering plugin 'volview' (version 1.1)
+W0625 17:02:24.065989             MAIN PluginsManager.cpp:224] Unregistering plugin 'web-viewer' (version 2.9)
+W0625 17:02:24.065989             MAIN PluginsManager.cpp:158] Finalizing the Web viewer
+W0625 17:02:27.069319             MAIN PluginsManager.cpp:224] Unregistering plugin 'worklists' (version 1.12.4)
+W0625 17:02:27.069319             MAIN worklists:/Plugin.cpp:265] Sample worklist plugin is finalizing
+W0625 17:02:27.069319             MAIN PluginsManager.cpp:224] Unregistering plugin 'wsi' (version 2.0)
+W0625 17:02:27.069319             MAIN main.cpp:2147] Orthanc has stopped
